@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AR Weather Cube</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div style="
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 999;
+">
+
+  <button id="start-ar" style="
+    padding: 20px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+  ">
+    Start AR
+  </button>
+
+  <button id="switch-camera" style="
+    padding: 20px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+  ">
+    Switch Camera
+  </button>
+
+</div>
+
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
