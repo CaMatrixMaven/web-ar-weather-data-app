@@ -95,7 +95,7 @@ async function startApp() {
 
   document.body.appendChild(renderer.domElement);
 
-  // tap/click to toggle cube visibility except on functional buttons 
+  // tap/click to toggle cube visibility 
   let cubeVisible = true;
 
   function isButtonTap(target) {
@@ -152,7 +152,7 @@ async function startApp() {
   const humidityTex = createTextTexture("Humidity...");
   const coordTex = createTextTexture("Coords...");
   const locationTex = createTextTexture("Location...");
-  const helloTex = createTextTexture("Dean St, Bangor, Gwynedd");
+  const helloTex = createTextTexture("Bangor Uni, Weather Data Cube");
 
   const materials = [
     new THREE.MeshBasicMaterial({ map: humidityTex }), // +X
